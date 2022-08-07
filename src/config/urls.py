@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
-from src.quickstart import views
+from quickstart import views
 
 
 router = routers.DefaultRouter()
